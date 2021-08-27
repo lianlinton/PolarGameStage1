@@ -87,6 +87,7 @@ function draw() {
 
     if (score > 200 || bear.isTouching(obstaclesGroup)){
       //didLose = bear.isTouching(obstaclesGroup);
+      console.log("touched);
       obstaclesGroup.setVelocityXEach(0);
       //count = true;
       obstaclesGroup.destroyEach()
